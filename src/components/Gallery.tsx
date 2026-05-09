@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { X, ChevronLeft, ChevronRight, ZoomIn } from "lucide-react";
+import { X, ChevronLeft, ChevronRight, ZoomIn, Instagram } from "lucide-react";
 
 const galleryImages = [
   "https://i.imgur.com/vMKnwUz.png",
@@ -93,14 +93,25 @@ export default function Gallery() {
 
         <div className="mt-16 text-center">
           <p className="text-xl font-medium text-gray-800 mb-6">Gostou do resultado? Solicite seu orçamento.</p>
-          <a
-            href="https://wa.me/5579998182472?text=Ol%C3%A1%2C%20vi%20as%20fotos%20dos%20servi%C3%A7os%20no%20site%20e%20gostaria%20de%20um%20or%C3%A7amento."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center bg-nc-orange hover:bg-nc-orange-hover text-white px-8 py-4 rounded-full font-bold text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"
-          >
-            Falar pelo WhatsApp agora
-          </a>
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+            <a
+              href="https://wa.me/5579998182472?text=Ol%C3%A1%2C%20vi%20as%20fotos%20dos%20servi%C3%A7os%20no%20site%20e%20gostaria%20de%20um%20or%C3%A7amento."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center bg-nc-orange hover:bg-nc-orange-hover text-white px-8 py-4 rounded-full font-bold text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 w-full sm:w-auto"
+            >
+              Falar pelo WhatsApp agora
+            </a>
+            <a
+              href="https://www.instagram.com/nc_intalacoes_eletrica/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center bg-white text-nc-blue border-2 border-nc-blue hover:bg-nc-blue hover:text-white px-8 py-4 rounded-full font-bold text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 w-full sm:w-auto gap-2"
+            >
+              <Instagram size={22} />
+              Ver mais serviços
+            </a>
+          </div>
         </div>
       </div>
 

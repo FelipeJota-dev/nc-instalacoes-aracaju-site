@@ -24,11 +24,11 @@ export default function About() {
             <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-square max-w-md mx-auto lg:max-w-none border-4 border-white ring-1 ring-gray-100">
               <img 
                 src="https://i.imgur.com/MtlVLfy.png" 
-                alt="Nilson - Proprietário da NC Instalações" 
+                alt="Milton - Proprietário da NC Instalações" 
                 className="w-full h-full object-cover object-top"
               />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                <p className="text-white font-bold text-xl">Nilson</p>
+                <p className="text-white font-bold text-xl">Milton</p>
                 <p className="text-gray-200 text-sm">Proprietário e Eletricista Responsável</p>
               </div>
             </div>
@@ -50,7 +50,7 @@ export default function About() {
             </h2>
             
             <p className="text-lg text-gray-600 leading-relaxed">
-              À frente da NC Instalações está Nilson, profissional reconhecido em Aracaju pela responsabilidade, qualidade no serviço e compromisso com o cliente. A empresa atende instalações, manutenções e soluções elétricas com foco em segurança, bom acabamento e pontualidade.
+              À frente da NC Instalações está Milton, profissional reconhecido em Aracaju pela responsabilidade, qualidade no serviço e compromisso com o cliente. A empresa atende instalações, manutenções e soluções elétricas com foco em segurança, bom acabamento e pontualidade.
             </p>
             
             <div className="pt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
