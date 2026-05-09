@@ -8,7 +8,8 @@ import {
   Lightbulb, 
   Zap, 
   Activity,
-  MapPin
+  MapPin,
+  Factory
 } from "lucide-react";
 
 export default function Services() {
@@ -57,6 +58,11 @@ export default function Services() {
       title: "Atendimento em Aracaju e região",
       desc: "Equipe pronta para deslocamento até o seu endereço.",
       icon: <MapPin className="text-nc-blue" size={32} />
+    },
+    {
+      title: "Instalações elétricas industriais",
+      desc: "Serviços elétricos robustos e manutenção para indústrias e galpões.",
+      icon: <Factory className="text-nc-blue" size={32} />
     }
   ];
 

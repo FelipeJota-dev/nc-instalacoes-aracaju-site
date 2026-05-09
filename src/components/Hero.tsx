@@ -27,7 +27,7 @@ export default function Hero() {
             </h1>
             
             <p className="text-lg text-gray-600 max-w-xl md:text-xl">
-              A NC Instalações Serviços e Manutenção realiza serviços elétricos residenciais e comerciais com compromisso, prazo e atendimento profissional.
+              A NC Instalações Serviços e Manutenção realiza serviços elétricos residenciais, comerciais e industriais com compromisso, prazo e atendimento profissional.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-2">

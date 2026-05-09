@@ -16,7 +16,7 @@ export default function FAQ() {
     },
     {
       q: "A empresa faz manutenção elétrica?",
-      a: "Sim, realiza manutenção elétrica preventiva e corretiva para residências e comércios."
+      a: "Sim, realiza manutenção elétrica preventiva e corretiva para residências, comércios e indústrias."
     },
     {
       q: "Trabalha com instalação elétrica?",
